@@ -14,6 +14,7 @@ class School
     @grade = grade
     if @roster[grade]
        @roster[grade] << name
+       binding.pry
     else 
       @roster[grade] = grade
       @roster[grade] << name
